@@ -1,0 +1,21 @@
+SELECT QUERY:
+
+SELECT * FROM recipe_details 
+INNER JOIN recipe_preparation ON recipe_details.id=recipe_preparation.recipe_id
+
+Selects all full recipe data
+
+EDIT QUERY:
+
+UPDATE [table]
+SET [column]='[value]'
+WHERE [clause]
+
+DELETE QUERY:
+
+DELETE FROM recipe_preparation
+WHERE recipe_id=[id];
+
+DELETE FROM recipe_details
+WHERE id=[id];
+

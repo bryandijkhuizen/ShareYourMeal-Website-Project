@@ -1,0 +1,23 @@
+SELECT QUERY:
+
+SELECT * FROM user_details
+INNER JOIN user_login ON user_details.id=user_login.user_id
+
+Selects all full user data no Adresses
+
+EDIT QUERY:
+
+UPDATE [table]
+SET [column]='[value]'
+WHERE [clause]
+
+DELETE QUERY:
+
+DELETE FROM user_login
+WHERE user_id=[id];
+
+DELETE FROM adress
+WHERE user_id=[id];
+
+DELETE FROM user_details
+WHERE id=[id];

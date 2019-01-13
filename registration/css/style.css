@@ -1,0 +1,409 @@
+
+@import url('https://fonts.googleapis.com/css?family=Niramit');
+
+.landing {
+	
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/background-green.jpg);
+}
+
+.landing h1 {
+	text-align: center;
+	font-family: 'Niramit';
+	text-shadow: 1px 0.5px black;
+	padding-top: 25%;
+	font-size: 500%;
+	color: white;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4AAA33;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+	font-size: 120%;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #386214;
+	display: block;
+}
+
+.navbar ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.user_box ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4AAA33;
+}
+
+.user_box li {
+    float: right;
+}
+
+.user_box li a {
+    display: block;
+    color: white;
+	
+	
+	font-size: 120%;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.user_box li a:hover {
+    background-color: #386214;
+	display: block;
+}
+
+
+body {
+	
+	background-image: url('/img/background-green.jpg');
+	height: auto;
+	width: auto;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+}
+
+.navbar {
+	
+	text-align: center;
+	font-family: 'Niramit';
+	text-shadow: 1px 0.5px black;
+	
+}
+
+.user_box {
+	
+	text-align: center;
+	font-family: 'Niramit';
+	text-shadow: 1px 0.5px black;
+	
+}
+
+.body h1 {
+	
+	font-size: 400%;
+	padding-top: 15%;
+	font-family: 'Niramit';
+	color: white;
+	text-shadow: 1px 2px black;
+	
+}
+
+.body h2 {
+	
+	font-size: 150%;
+
+	font-family: 'Niramit';
+	color: white;
+	text-shadow: 1px 2px black;
+	
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    
+	
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family: 'Niramit';
+}
+
+input[type=textarea], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family: 'Niramit';
+}
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family: 'Niramit';
+}
+
+input[type=button] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family: 'Niramit';
+}
+input[type=reset] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family: 'Niramit';
+}
+
+textarea {
+	width: 100%;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: solid black;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family: 'Niramit';}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+	font-family: 'Niramit';
+}
+
+input[type=button]:hover {
+    background-color: #45a049;
+	font-family: 'Niramit';
+}
+
+
+.register_form {
+	height: auto;
+	width: 60%;
+    background-color: rgba(77,124,44,0.65);
+	font-family: 'Niramit';
+	color: white;
+	
+}
+
+.title_reg h1 {
+	font-family: 'Niramit';
+	font-size: 300%;
+	color: white;
+	text-shadow: 1px 1px black;
+	
+}
+
+.login_form {
+	height: auto;
+	width: 60%;
+    background-color: rgba(77,124,44,0.65);
+	font-family: 'Niramit';
+	color: white;
+	
+}
+
+.title_login h1 {
+	font-family: 'Niramit';
+	font-size: 300%;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+.title_recipe h1 {
+	font-family: 'Niramit';
+	font-size: 300%;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+.recipe_add_form {
+	height: auto;
+	width: 100%;
+    background-color: rgba(77,124,44,0.65);
+	font-family: 'Niramit';
+	color: white;
+}
+
+.recipe {
+	font-family: 'Niramit';
+	color: white;
+	text-align: center
+}
+
+.content {
+	font-family: 'Niramit';
+	color: white;
+	text-align: center;
+}
+
+.content h1 {
+	font-family: 'Niramit';
+	color: white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+}
+
+.content h2 {
+	font-family: 'Niramit';
+	color: white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+}
+
+.content h3 {
+	font-family: 'Niramit';
+	color: black;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.vote {
+	font-family: 'Niramit';
+	color: white;
+	text-align: center;
+	
+}
+
+.vote h1 {
+	font-family: 'Niramit';
+	color: white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+}
+
+.vote h2 {
+	font-family: 'Niramit';
+	color: white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+}
+
+.vote h3 {
+	font-family: 'Niramit';
+	color: black;
+	text-align: center;
+}
+
+.votes {
+	font-family: 'Niramit';
+	color: white;
+	text-align: center;
+	
+}
+
+.votes h1 {
+	font-family: 'Niramit';
+	color: white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+}
+
+.votes h2 {
+	font-family: 'Niramit';
+	color: white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+}
+
+.votes h3 {
+	font-family: 'Niramit';
+	color: black;
+	text-align: center;
+}
+
+
+
+
+.recipe_description {
+	font-family: 'Niramit';
+	color: white;
+	text-shadow: 1px 1px black;
+	position: absolute;
+}
+
+.recipe-list {
+	bottom: 15%;
+	width: 100%;
+	position: fixed;
+}
+.recipe-list h1 {
+	font-family: 'Niramit';
+	color: white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+}
+
+.recipe-list h2{ 
+	font-family: 'Niramit';
+	color: white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+}
+
+.recipe-list h3{ 
+	font-family: 'Niramit';
+	text-align: center;
+	color: black;
+
+}
+
+.content a {
+	color: black;
+	text-shadow: 0px 0px black;
+}
+
+.recipe a {
+	
+}
+
+.between {
+	
+	
+}
+
+hr {
+	width: 50%;
+	
+}
+
+
+a {
+    color: white;
+}

@@ -1,0 +1,26 @@
+/* CSS Document */
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+	height: 40%;
+	margin: auto;
+}
+
+th, td {
+    text-align: center;
+	color: black;
+	background: #FFFFFF;
+	
+}
+
+tr:nth-child(even){background-color: black}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a {
+    color: black;
+}
